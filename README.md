@@ -1,11 +1,11 @@
 <div align='center'>
 
-<h2>HyprGUI <img src='https://raw.githubusercontent.com/hyprutils/.github/refs/heads/main/hyprutils_transparent.png'width='18' height='18'></h2>
+<h2>HyprGUI <img src='https://raw.githubusercontent.com/hyprutils/.github/refs/heads/main/hyprutils.png'width='18' height='18'></h2>
 
-<img src='hyprgui.png' width='200' height='200'>
+<img src='.github/hyprgui.png' width='200' height='200'>
 
 An unofficial GUI for configuring Hyprland, built with GTK4 and Rust. 🚀🦀<br>
-Comes with a custom [hyprparser](https://github.com/nnyyxxxx/hyprparser) for Hyprland's configuration file. (Rust btw) 🦀
+Comes with a custom hyprparser for Hyprland's configuration file. (Rust btw) 🦀
 
 ## Preview
 ![Preview](.github/preview.png)
@@ -17,7 +17,7 @@ Comes with a custom [hyprparser](https://github.com/nnyyxxxx/hyprparser) for Hyp
 [![Packaging status](https://repology.org/badge/vertical-allrepos/hyprgui.svg)](https://repology.org/project/hyprgui/versions)
 
 ### GitHub Releases
-See HyprGUI's [releases page](https://github.com/nnyyxxxx/hyprgui/releases) for downloadable binaries.
+See HyprGUI's [releases page](https://github.com/hyprutils/hyprgui/releases) for downloadable binaries.
 
 ### Arch Linux
 There are 2 different [AUR](https://aur.archlinux.org) packages available:
@@ -71,7 +71,7 @@ nix-shell -p hyprgui
 1. Install Rust (preferably `rustup`) through your distro's package or [the official script](https://www.rust-lang.org/tools/install)
 2. Install `git`, `pango` and `gtk4`
 3. Clone this repository:
-`git clone https://github.com/nnyyxxxx/hyprgui && cd hyprgui`
+`git clone https://github.com/hyprutils/hyprgui && cd hyprgui`
 4. Compile the app with `cargo build --release` or run it directly with `cargo run --release`
 
 ## TODO:
@@ -82,10 +82,8 @@ nix-shell -p hyprgui
 - [ ] Improve GUI
 
 ## Credits:
-- [Nyx](https://github.com/nnyyxxxx) - Implementing the parser, rest of the GUI, and maintaining the project
-- [Adam](https://github.com/adamperkowski) - Implementing the base GUI, maintaining the AUR packages and the project
 - [Vaxry](https://github.com/vaxerski) - Hyprland
 - [rust-gtk](https://github.com/gtk-rs/gtk4-rs) - The GTK4 library
 - [Hyprland](https://github.com/hyprwm/Hyprland) - The wayland compositor
 
-<h6 align='center'>Copyright (C) 2024 HyprUtils<h6>
+<h6 align='center'>Copyright (C) 2026 HyprUtils<h6>
