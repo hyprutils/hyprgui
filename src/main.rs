@@ -10,9 +10,7 @@ const CONFIG_PATH: &str = ".config/hypr/hyprland.conf";
 const BACKUP_SUFFIX: &str = "-bak";
 
 fn main() {
-    let app = Application::builder()
-        .application_id("nnyyxxxx.hyprgui")
-        .build();
+    let app = Application::builder().application_id("hyprgui").build();
 
     app.connect_activate(build_ui);
     app.run();
